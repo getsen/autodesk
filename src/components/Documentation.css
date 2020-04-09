@@ -1,0 +1,85 @@
+.autodesk-header {
+  background-color: #43bde4;
+  height: 75px;
+}
+
+.autodesk-header .navbar-brand {
+  color: #fff;
+}
+
+.autodesk-title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.autodesk-title h2 {
+  font-size: 24px;  
+}
+
+.card-container {
+  margin: 15px 0;
+  color: #666;
+}
+
+.card {
+  min-height: 100%;
+  padding-bottom: 15px;
+  transition: box-shadow .20s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 5px 10px 0 #666, 0 1px 2px 0 #666
+}
+
+.card-title {
+  font-size: 18px;
+  padding: 15px 15px 0;
+  margin-bottom: 0;
+}
+
+.card-icon {
+  height: 30px;
+  vertical-align: bottom;
+}
+
+.card-footer {
+  border-top: none;
+}
+
+.card-footer-link {
+  color: #666;
+  position: relative;
+  font-size: 16px;
+  padding: 5px 0;
+  display: block;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.card-footer-link:last-child {
+  border-bottom: none;
+}
+
+.card-footer-link:hover {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.card-footer-icon {
+  position: absolute;
+  right: 0;
+  color: #c3bbbb;
+  margin-top: 3px;
+}
+
+.card-footer-link:hover .card-footer-icon {
+  color: #000;
+}
+
+.loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+}
